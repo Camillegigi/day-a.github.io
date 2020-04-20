@@ -17,10 +17,11 @@ Créer un fichier "index.html" en tapant clique droit sur le fichier "code" dans
 
 ### Le squelette
 Le squelette de la page HTML comprend deux parties. 
-  o Une partie "HEAD" pour les informations nécéssaires mais non visibles (comme par exemple autoriser les carractères avec accent).
-  o Une partie "BODY" qui contient tout le contenu visible de page.
+  * Une partie "HEAD" pour les informations nécéssaires mais non visibles (comme par exemple autoriser les carractères avec accent).
+  * Une partie "BODY" qui contient tout le contenu visible de page.
 Pour générer automatiquement le squelette taper ```html``` dans le fichier index.html.
 
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -30,7 +31,7 @@ Pour générer automatiquement le squelette taper ```html``` dans le fichier ind
 
 </body>
 </html>
-
+html```
 #######
 
 
