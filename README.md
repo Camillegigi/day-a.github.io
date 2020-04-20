@@ -61,8 +61,9 @@ Pour écrire un titre dans la page il faut utiliser la balise "h1" (header 1).
   <h1>Les Muffins de Grand Mère</h1>
 </body>
 ```
-
-#########
+### Les sous-titres
+De la même manière, si l'on souhaite ajouter un sous-titre on utilise la balise "h2" (header 2).
+Ils existent 6 niveaux de sous-titres.
 
 ```html
 <body>
@@ -70,8 +71,8 @@ Pour écrire un titre dans la page il faut utiliser la balise "h1" (header 1).
   <h2>Fondants et croustillants</h2>
 </body>
 ```
-
-########
+### Les paragraphes
+On peut également ajouter un paragraphe grâce à la balise "p".
 
 ```html
 <h3>Présentation</h3>
@@ -81,7 +82,9 @@ Pour écrire un titre dans la page il faut utiliser la balise "h1" (header 1).
 </p>
 ```
 
-########
+### Les listes non-ordonnées (Unordered List)
+
+La balise pour créer une liste non ordonnée est la balise "ul". Une liste est composée de plusieurs items, il faut donc céer un balise "li" (List Item) par item.
 
 ```html
 <h4>Ingredients</h4>
@@ -99,7 +102,9 @@ Pour écrire un titre dans la page il faut utiliser la balise "h1" (header 1).
   <li>Extrait de vanille</li>
 </ul>
 ```
- ############
+### Les listes ordonnées (Ordered List)
+
+Ils existent aussi des liste ordonnées. La balise associée est la balise "ol".
 
 ```html
 <h4>Préparation</h4>
@@ -111,11 +116,22 @@ Pour écrire un titre dans la page il faut utiliser la balise "h1" (header 1).
   <li>Etape 4 : Mettre au four 15 min à 180°C (thermostat 6)</li>
 </ol>
 ```
-############
+### La structure d'une balise 
+
+Une balise puet être constituer de 4 parties :
+* Le tag (ex: h1)
+* Les attributs (ex: width)
+* La valeur associée (ex 200px)
+* Le text apparent
 
 ```html
-<element attribut="valeur">text apparent à l'écran</element>
+<tag attribut="valeur">text apparent à l'écran</tagt>
 ```
+
+### Les liens de page en page
+
+La baise pour lier deux page est la balise "a".
+
 ```html
 <a href="https://www.marmiton.org/recettes/recette_muffins-tres-simples_166385.aspx" target="blank">En savoir plus</a>
 ```
@@ -238,7 +254,7 @@ a, a:hover {
 }
 ```
 
-####### Police google
+## Police google
 Google fonts (https://fonts.google.com/)
 
 Aller sur le site google fonts.
@@ -269,7 +285,7 @@ h2, h3, h4 {
 }
 ```
 
-####### Vidéo
+## Vidéo
 
 Aller sur Youtube et choisir une video (https://www.youtube.com/watch?v=fBuSNu2m3XA&feature=youtu.be)
 Faire clique droit sur la vidéo.
