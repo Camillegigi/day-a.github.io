@@ -19,7 +19,7 @@ Créer un fichier "index.html" en tapant clique droit sur le fichier "code" dans
 Le squelette de la page HTML comprend deux parties. 
   * Une partie "HEAD" pour les informations nécéssaires mais non visibles (comme par exemple autoriser les carractères avec accent).
   * Une partie "BODY" qui contient tout le contenu visible de page.
-Pour générer automatiquement le squelette taper ```html``` dans le fichier index.html.
+Pour générer automatiquement le squelette taper ```html``` dans le fichier index.html puis la touche "tabulations".
 
 ```html
 <!DOCTYPE html>
@@ -31,35 +31,36 @@ Pour générer automatiquement le squelette taper ```html``` dans le fichier ind
 
 </body>
 </html>
-html```
-#######
+```
 
+Pour pouvoir utiliser des carractères avec accent il faut rajouter la la ligne ```<meta charset="UTF-8">``` dans la partie "HEAD" :
 
-<!DOCTYPE html>
-<html>
+```html
 <head>
   <meta charset="UTF-8">
   <title></title>
 </head>
-<body>
+...
+```
 
-</body>
-</html>
+Pour personnaliser le nom présent dans l'onglet du navigateur on doit spécifier un "title"
 
-#########
-
+```html
 <head>
   <meta charset="UTF-8">
   <title>Jour 1</title>
 </head>
+```
 
+### Le titre principal
 
-########
+Pour écrire un titre dans la page il faut utiliser la balise "h1" (header 1).
 
-
+```html
 <body>
   <h1>Les Muffins de Grand Mère</h1>
 </body>
+```
 
 #########
 
