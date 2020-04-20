@@ -10,12 +10,12 @@ La structure du code peut être retrouvée dans le fichier <a href="https://gith
   
 Et l'ensemble des propriétés dans le fichier <a href="https://github.com/Joz84/day-a.github.io/blob/master/style.css" target="_blanck">style.css<a>
 
-## Le HTML
+## Le fichier HTML
 Créer un dossier "code".
 Ouvrir le logiciel Sublime Text et faire glisser le dossier "code" à l'interieur.
 Créer un fichier "index.html" en tapant clique droit sur le fichier "code" dans Sublime Text puis "add new file".
 
-## Le squelette
+### Le squelette
 Le squelette de la page HTML comprend deux parties. 
   o Une partie "HEAD" pour les informations nécéssaires mais non visibles (comme par exemple autoriser les carractères avec accent).
   o Une partie "BODY" qui contient tout le contenu visible de page.
