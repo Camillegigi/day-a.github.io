@@ -64,21 +64,25 @@ Pour écrire un titre dans la page il faut utiliser la balise "h1" (header 1).
 
 #########
 
-
+```html
 <body>
   <h1>Les Muffins de Grand Mère</h1>
   <h2>Fondants et croustillants</h2>
 </body>
+```
 
 ########
 
+```html
   <h3>Présentation</h3>
   <p>Les muffins sont de petits gâteaux individuels s'apparentant aux madeleines. Apparus au pays de Galles aux alentours du XIe siècle, ils sont très répandus dans les pays anglo-saxons, principalement aux États-Unis. Le principe caractéristique de fabrication des muffins consiste à préparer le mélange des ingrédients liquides et celui des ingrédients secs séparément, puis à mélanger rapidement et grossièrement les deux préparations. Contrairement aux cupcakes, les muffins n’ont jamais de glaçage.
   Les muffins sont traditionnellement sucrés. On peut les retrouver au chocolat (avec des pépites de chocolat) ou nature, mais il existe de nombreuses autres variétés : fraise, banane, framboise, orange, vanille, myrtille ou bleuets, etc.
   Il existe également des muffins salés, les English muffins ou muffins anglais, ressemblant à des sortes de petites crêpes très épaisses, faits à partir de pâte levée. Ces muffins salés sont quelquefois faits avec de la farine complète. Ils sont notamment employés comme base de la préparation des "œufs Bénédicte".</p>
-  '
+```
+
 ########
 
+```html
   <h4>Ingredients</h4>
 
   <ul>
@@ -93,9 +97,10 @@ Pour écrire un titre dans la page il faut utiliser la balise "h1" (header 1).
     <li>Cannelle</li>
     <li>Extrait de vanille</li>
   </ul>
-'
+```
  ############
 
+```html
   <h4>Préparation</h4>
 
   <ol>
@@ -107,50 +112,58 @@ Pour écrire un titre dans la page il faut utiliser la balise "h1" (header 1).
 
     <li>Etape 4 : Mettre au four 15 min à 180°C (thermostat 6)</li>
   </ol>
-
+```
 ############
 
+```html
   <element attribut="valeur">text apparent à l'écran</element>
-'
+```
+```html
   <a href="https://www.marmiton.org/recettes/recette_muffins-tres-simples_166385.aspx" target="blank">En savoir plus</a>
-
+```
 #########
 
   Créer un dossier nommé "images"
 
   Télécharger une image d'un site de photo libre de droits, de qualité et gratuite.
   Exemple: Pexels ( https://www.pexels.com/fr-fr/ )
-'
+
   Ranger la photo dans le dossier "images".
 
+```html
   <img src="images/muffin.jpg" alt="muffin">
-
+```
 
 ###########
  Mise en page du text
 
+```html
   <p><strong>Les muffins</strong> sont de petits gâteaux individuels s'apparentant aux madeleines. Apparus au pays de Galles aux alentours du XIe siècle, ils sont très répandus dans les pays anglo-saxons, principalement aux États-Unis. Le principe caractéristique de fabrication des muffins consiste à préparer le mélange des ingrédients liquides et celui des ingrédients secs séparément, puis à mélanger rapidement et grossièrement les deux préparations. Contrairement aux cupcakes, les muffins n’ont jamais de glaçage.<br>
   Les muffins sont traditionnellement sucrés. On peut les retrouver au chocolat (avec des pépites de chocolat) ou nature, mais il existe de nombreuses autres variétés : fraise, banane, framboise, orange, vanille, myrtille ou bleuets, etc.<br>
   Il existe également des muffins salés, les English muffins ou muffins anglais, ressemblant à des sortes de petites crêpes très épaisses, faits à partir de pâte levée. Ces muffins salés sont quelquefois faits avec de la farine complète. Ils sont notamment employés comme base de la préparation des <i>"œufs Bénédicte"</i>.</p>
-'
+```
 
+```html
   <br>
   <a href="https://www.marmiton.org/recettes/recette_muffins-tres-simples_166385.aspx" target="blank">
-
+```
 ####### image HTML sans CSS
 
 ####### CSS
 #### lien entre les deux pages
-link + tab
+```link``` + tab
 créer un fichier css et le nommer "style.css".
 
+```html
 <head>
   [...]
   <link rel="stylesheet" href="style.css">
 </head>
 Attention : href="style.css" fait bien sur référence au fichier "style.css" et doit avoir le même nom.
+```
 
 # style.css
+```css
 h1 {
   color: green;
   font-size: 32px;
@@ -167,9 +180,11 @@ h2, h3, h4 {
 p, ul, ol {
   font-size: 20px;
 }
+```
 
 ########
-
+    
+```css
 body {
   background: pink;
   font-family: arial;
@@ -183,9 +198,11 @@ h1 {
 h2, h3, h4 {
   font-size: 28px;
 }
+```
 
 #######
 
+```css
 body {
   background: pink;
   font-family: arial;
@@ -195,17 +212,21 @@ body {
 h4, ul, ol {
   text-align: left;
 }
+```
 
 #####
 
+```css
 img {
   width: 300px;
   height: 300px;
   object-fit: cover;
 }
+```
 
 #####
 
+```css
 a:hover {
   color: brown;
 }
@@ -213,30 +234,27 @@ a:hover {
 a, a:hover {
   text-decoration: none;
 }
-
+```
 
 ####### Police google
 Google fonts (https://fonts.google.com/)
 
 Aller sur le site google fonts.
 Sélectionner une police en cliquant sur le petit "+" en fave du nom de la police.
-Copier le code html de la forme :
-  <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
-Et le coller dans le code html au dessus de la ligne :
-  <link rel="stylesheet" href="style.css">
+Copier le code html de la forme ```<link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">``` et le coller dans le code html au dessus de la ligne ```<link rel="stylesheet" href="style.css">```
 Soit :
 
+```html
 <head>
   <title>Jour 1</title>
   <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
+```
 
-Puis copier la propriété css de la forme :
-font-family: 'Pacifico', cursive;
-Et la coller dans le fichier css :
+Puis copier la propriété css de la forme ```font-family: 'Pacifico', cursive;``` et la coller dans le fichier css :
 
-
+```css
 h1 {
   font-family: 'Pacifico', cursive;
   color: green;
@@ -247,6 +265,7 @@ h2, h3, h4 {
   font-family: 'Pacifico', cursive;
   font-size: 28px;
 }
+```
 
 ####### Vidéo
 
@@ -256,7 +275,9 @@ Cliquer sur "< > Copier le code d'intégration".
 Coller le code dans le fichier html la où vous souhaitez intégrer la vidéo :
 Remarque : Il est possible de changer la taille de la vidéo grâce aux attributs "width" et "height".
 
+```html
 <h3>La recette en vidéo</h3>
 <iframe width="500" height="300" src="https://www.youtube.com/embed/fBuSNu2m3XA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+```
 
-# screenshot
+### screenshot
