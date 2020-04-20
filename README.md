@@ -77,7 +77,8 @@ Pour écrire un titre dans la page il faut utiliser la balise "h1" (header 1).
 <h3>Présentation</h3>
 <p>Les muffins sont de petits gâteaux individuels s'apparentant aux madeleines. Apparus au pays de Galles aux alentours du XIe siècle, ils sont très répandus dans les pays anglo-saxons, principalement aux États-Unis. Le principe caractéristique de fabrication des muffins consiste à préparer le mélange des ingrédients liquides et celui des ingrédients secs séparément, puis à mélanger rapidement et grossièrement les deux préparations. Contrairement aux cupcakes, les muffins n’ont jamais de glaçage.
   Les muffins sont traditionnellement sucrés. On peut les retrouver au chocolat (avec des pépites de chocolat) ou nature, mais il existe de nombreuses autres variétés : fraise, banane, framboise, orange, vanille, myrtille ou bleuets, etc.
-  Il existe également des muffins salés, les English muffins ou muffins anglais, ressemblant à des sortes de petites crêpes très épaisses, faits à partir de pâte levée. Ces muffins salés sont quelquefois faits avec de la farine complète. Ils sont notamment employés comme base de la préparation des "œufs Bénédicte".</p>
+  Il existe également des muffins salés, les English muffins ou muffins anglais, ressemblant à des sortes de petites crêpes très épaisses, faits à partir de pâte levée. Ces muffins salés sont quelquefois faits avec de la farine complète. Ils sont notamment employés comme base de la préparation des "œufs Bénédicte".
+</p>
 ```
 
 ########
@@ -135,9 +136,13 @@ Ranger la photo dans le dossier "images".
  Mise en page du text
 
 ```html
-<p><strong>Les muffins</strong> sont de petits gâteaux individuels s'apparentant aux madeleines. Apparus au pays de Galles aux alentours du XIe siècle, ils sont très répandus dans les pays anglo-saxons, principalement aux États-Unis. Le principe caractéristique de fabrication des muffins consiste à préparer le mélange des ingrédients liquides et celui des ingrédients secs séparément, puis à mélanger rapidement et grossièrement les deux préparations. Contrairement aux cupcakes, les muffins n’ont jamais de glaçage.<br>
-Les muffins sont traditionnellement sucrés. On peut les retrouver au chocolat (avec des pépites de chocolat) ou nature, mais il existe de nombreuses autres variétés : fraise, banane, framboise, orange, vanille, myrtille ou bleuets, etc.<br>
-Il existe également des muffins salés, les English muffins ou muffins anglais, ressemblant à des sortes de petites crêpes très épaisses, faits à partir de pâte levée. Ces muffins salés sont quelquefois faits avec de la farine complète. Ils sont notamment employés comme base de la préparation des <i>"œufs Bénédicte"</i>.</p>
+<p><strong>Les muffins</strong> sont de petits gâteaux individuels s'apparentant aux madeleines. Apparus au pays de Galles aux alentours du XIe siècle, ils sont très répandus dans les pays anglo-saxons, principalement aux États-Unis. Le principe caractéristique de fabrication des muffins consiste à préparer le mélange des ingrédients liquides et celui des ingrédients secs séparément, puis à mélanger rapidement et grossièrement les deux préparations. Contrairement aux cupcakes, les muffins n’ont jamais de glaçage.
+<br>
+Les muffins sont traditionnellement sucrés. On peut les retrouver au chocolat (avec des pépites de chocolat) ou nature, mais il existe de nombreuses autres variétés : fraise, banane, framboise, orange, vanille, myrtille ou bleuets, etc.
+<br>
+Il existe également des muffins salés, les English muffins ou muffins anglais, ressemblant à des sortes de petites crêpes très épaisses, faits à partir de pâte levée. Ces muffins salés sont quelquefois faits avec de la farine complète. Ils sont notamment employés comme base de la préparation des 
+<i>"œufs Bénédicte"</i>.
+</p>
 ```
 
 ```html
