@@ -2,7 +2,7 @@
 
 ### <a href="https://github.com/Joz84/ten-hours-of-html-css" target="_blank">Retour au menu principal</a>
 
-## Le lien vers la <a href="https://joz84.github.io/day-a.github.io/" target="_blanck">demo</a>
+## Le lien vers la <a href="https://joz84.github.io/day-a.github.io/" target="_blanck">démo</a>
 
 ## Les autres liens utiles
 Les diapositives du 1er cours sont disponibles à l'adresse suivante :
