@@ -359,9 +359,14 @@ a, a:hover {
 ## Police google
 Google fonts (https://fonts.google.com/)
 
-Aller sur le site google fonts.
-Sélectionner une police en cliquant sur le petit "+" en fave du nom de la police.
-Copier le code html de la forme ```<link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">``` et le coller dans le code html au dessus de la ligne ```<link rel="stylesheet" href="style.css">```
+* Aller sur le site google fonts.
+* Sélectionner une police en cliquant sur le petit "+" en face du nom de la police.
+<img src="images-readme/google-fonts1.png" alt="google-fonts1">
+
+* Copier le code html de la forme ```<link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">```.
+<img src="images-readme/google-fonts2.png" alt="google-fonts2">
+
+* Coller le code obtenu dans le fichier html au dessus de la ligne ```<link rel="stylesheet" href="style.css">```
 Soit :
 
 ```html
@@ -389,10 +394,13 @@ h2, h3, h4 {
 
 ## Vidéo
 
-Aller sur Youtube et choisir une video (https://www.youtube.com/watch?v=fBuSNu2m3XA&feature=youtu.be)
-Faire clique droit sur la vidéo.
-Cliquer sur "< > Copier le code d'intégration".
-Coller le code dans le fichier html la où vous souhaitez intégrer la vidéo :
+* Aller sur Youtube et choisir une video (https://www.youtube.com/watch?v=fBuSNu2m3XA&feature=youtu.be)
+* Taper clique droit sur la vidéo.
+* Cliquer sur "< > Copier le code d'intégration".
+<img src="images-readme/youtube.png" alt="youtube">
+
+* Coller le code dans le fichier html la où vous souhaitez intégrer la vidéo :
+
 Remarque : Il est possible de changer la taille de la vidéo grâce aux attributs "width" et "height".
 
 ```html
@@ -400,4 +408,3 @@ Remarque : Il est possible de changer la taille de la vidéo grâce aux attribut
 <iframe width="500" height="300" src="https://www.youtube.com/embed/fBuSNu2m3XA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ```
 
-### screenshot
