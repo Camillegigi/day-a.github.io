@@ -22,7 +22,7 @@ Chaque logiciel attend un certain type de fichier avec une extension bien partic
 * Le lecteur vidéo VLC attend des fichiers du type "video.mp4".
 * Le navigateur Chrome attend des fichiers du type "index.html" et "style.css".
 
-<img src="images-readme/extensions.png" alt="init-a">
+<img src="images-readme/extensions.png" alt="extensions">
 
 ### Sublime Text
 <img src="images-readme/st-logo.png" alt="st-logo" width="100px">
@@ -41,9 +41,9 @@ GitHub est une plateforme web qui permet stocker et de partager son travail en l
 Le langage HTML (Hypertext Markup Language) a été créé par Tim Berners-Lee en 1989. 
 C'est un Langage balisé qui permet d'écrire le contenu et structure d'un page web.
 
-Exemple de rendu HTML (sans CSS) :
+Exemple de rendu HTML sans CSS :
 <kbd>
-<img src="images-readme/html-screenshot.png" alt="html-screenshot">
+  <img src="images-readme/html-screenshot.png" alt="html-screenshot">
 </kbd>
 
 
@@ -51,6 +51,11 @@ Exemple de rendu HTML (sans CSS) :
 <img src="images-readme/css.png" alt="css" width="100px">
 Le langage CSS (Cascading Style Sheets) a aussi été créé par Tim Berners-Lee en 1990.
 C'est un langage qui permet de définir la présentation et mise en page d'une page web.
+
+Exemple de rendu HTML avec CSS :
+<kbd>
+  <img src="images-readme/css-screenshot.png" alt="css-screenshot">
+</kbd>
 
 ## Commencer une page web
 
@@ -203,14 +208,16 @@ La balise pour lier deux pages est la balise "a".
 ```
 ### Les images
 
-Créer un dossier nommé "images".
+* Créer un dossier nommé "images".
 
-Télécharger une image d'un site de photo libre de droits, de qualité et gratuite.
+* Télécharger une image d'un site de photo libre de droits, de qualité et gratuite.
 Exemple: Pexels ( https://www.pexels.com/fr-fr/ )
 
-Ranger la photo dans le dossier "images".
+<img src="images-readme/pexels.png" alt="pexels">
 
-Renommer l'image avec un nom simple, sans accent et sans espace (ex: "muffin.jpg").
+* Ranger la photo dans le dossier "images".
+
+* Renommer l'image avec un nom simple, sans accent et sans espace (ex: "muffin.jpg").
 
 La balise pour insérer une image est la balise "img", elle contient au moins un attribut, l'attribut "src" ( pour "source"). La valeur de cet attribut doit être le chemin relatif de l'image. Dans notre exemple cela est "images/muffin.jpg". 
 
@@ -222,7 +229,7 @@ On peut egalement ajouter l'attribut "alt" ( pour "alternative"). la valeur de c
 * Les applications pour aveugles qui lisent la page HTML notifiront qu'il y a une image et ce quelle représente.
 * Mettre une description pertinante améliore le référencement.
 
-### Mise en page du text
+### Mise en page du texte
 
 ```html
 <p><strong>Les muffins</strong> sont de petits gâteaux individuels s'apparentant aux madeleines. Apparus au pays de Galles aux alentours du XIe siècle, ils sont très répandus dans les pays anglo-saxons, principalement aux États-Unis. Le principe caractéristique de fabrication des muffins consiste à préparer le mélange des ingrédients liquides et celui des ingrédients secs séparément, puis à mélanger rapidement et grossièrement les deux préparations. Contrairement aux cupcakes, les muffins n’ont jamais de glaçage.
