@@ -13,8 +13,11 @@ Et l'ensemble des propriétés dans le fichier <a href="https://github.com/Joz84
 ## Le fichier HTML
 * Créer un dossier "code".
 * Ouvrir le logiciel Sublime Text et faire glisser le dossier "code" à l'interieur.
+<img src="images-readme/init-a.png" alt="init-a">
+
 * Créer un nouveau fichier en tapant clique droit sur le dossier "code" apparent sur la partie gauche dans Sublime Text puis cliquer sur "new file".
-* Sauvegarder le fichier en cliquant sur "File" puis "Save". Taper le nom du fichier "index.html" (attention, petite liste des erreures classique : "index.html" est sans "i" majuscule, sans "e" à la fin et l'extenstion est bien "html" et pas "htlm"). Assurer vous d'être bien dans le dossier "code" avant de sauvegarder.  
+<img src="images-readme/init-b.png" alt="init-b">
+* Sauvegarder le fichier en cliquant sur "File" puis "Save". Taper le nom du fichier "index.html" (attention, petite liste des erreures classiques : "index.html" est sans "i" majuscule, sans "e" à la fin et l'extenstion est bien "html" et pas "htlm"). Assurer vous d'être bien dans le dossier "code" avant de sauvegarder.  
 
 ### Le squelette
 Le squelette de la page HTML comprend deux parties. 
