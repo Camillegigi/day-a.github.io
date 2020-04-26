@@ -36,7 +36,7 @@ GitHub est une plateforme web qui permet stocker et de partager son travail en l
 <a href="https://github.com/" target="_blanck">S'incrire sur GitHub</a>
 
 ## Présentation rapide des langages
-### HTML
+### <img src="images-readme/html.png" alt="html" width="100px"> HTML
 <img src="images-readme/html.png" alt="html" width="100px">
 Le langage HTML (Hypertext Markup Language) a été créé par Tim Berners-Lee en 1989. 
 C'est un Langage balisé qui permet d'écrire le contenu et structure d'un page web.
@@ -72,7 +72,7 @@ C'est un langage qui permet de définir la présentation et mise en page d'une p
 * Automatiquement le navigateur s'ouvre avec et présente la page web
 <img src="images-readme/init-f.png" alt="init-f">
 
-## Le fichier HTML
+## <img src="images-readme/html.png" alt="html" width="100px"> Le fichier HTML
 
 ### Le squelette
 Le squelette de la page HTML comprend deux parties. 
