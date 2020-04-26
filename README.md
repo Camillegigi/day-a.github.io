@@ -2,7 +2,7 @@
 
 ## <a href="https://joz84.github.io/day-a.github.io/" target="_blanck">Demo</a>
 
-Le 1er cours est disponible à l'adresse suivante :
+Les diapositives du 1er cours sont disponibles à l'adresse suivante :
 <a href="https://docs.google.com/presentation/d/e/2PACX-1vTG02S_mq5pnkXvMSj36VNTqjMDypUAf-ql2YGz7HisuWGakCtsWRAQy0ajBHMnjC1S6y6WOJfqfuoa/pub?start=false&loop=false&delayms=60000" target="_blanck">
 Cours 1</a>
 
@@ -10,14 +10,66 @@ La structure du code peut être retrouvée dans le fichier <a href="https://gith
   
 Et l'ensemble des propriétés dans le fichier <a href="https://github.com/Joz84/day-a.github.io/blob/master/style.css" target="_blanck">style.css<a>
 
-## Le fichier HTML
+## Les outils
+<img src="images-readme/tools-logos.png" alt="tools">
+
+### Chrome
+<img src="images-readme/chrome-logo.png" alt="chrome-logo" width="200px">
+Chrome est un navigateur. C'est un logiciel qui permet de visualiser une page web. 
+Chaque logiciel attend un certain type de fichier avec une extension bien particulière. Par exemple :
+* Le tableur Excel attend des fichiers du type "tableau.xls".
+* Le lecteur vidéo VLC attend des fichiers du type "video.mp4".
+* Le navigateur Chrome attend des fichiers du type "index.html" et "style.css".
+<img src="images-readme/extensions.png" alt="init-a">
+
+### Sublime Text
+<img src="images-readme/st-logo.png" alt="st-logo" width="200px">
+Sublime Text est un éditeur de text qui permet d'écrire des fichiers textes et de les sauvegarder au format choisi. Dans notre cas nous l'utiliserons pour écrire les fichiers "index.html" et "style.css".
+C'est le seul logiciel qu'il est nécessaire d'installer pour suivre ce cours. Voici le lien :
+<a href="https://www.sublimetext.com/3" target="_blanck">Télécharger Sublime Text</a>
+
+### GitHub
+<img src="images-readme/github-logo.png" alt="github-logo" width="200px">
+GitHub est une plateforme web qui permet stocker et de partager son travail en ligne et héberger des sites statiques. Dans ce cours nous utiliserons cette plateforme à la fois pour partager les supports de cours et héberger le site web que nous allos produire. Pour pouvoir suivre ce cours il est donc nécessaire de se créer un compte. Voici le lien : 
+<a href="https://github.com/" target="_blanck">S'incrire sur GitHub</a>
+
+### HTML
+<img src="images-readme/html.png" alt="html" width="200px">
+Le langage HTML (Hypertext Markup Language) a été créé par Tim Berners-Lee en 1989. 
+C'est un Langage balisé qui permet d'écrire le contenu et structure d'un page web.
+
+### CSS
+<img src="images-readme/css.png" alt="css" width="200px">
+Le langage CSS (Cascading Style Sheets) a aussi été créé par Tim Berners-Lee en 1990.
+C'est un langage qui permet de définir la présentation et mise en page d'une page web.
+
+## Commencer une page web
+
+### Créer le dossier "code" contenant le projet
 * Créer un dossier "code".
 * Ouvrir le logiciel Sublime Text et faire glisser le dossier "code" à l'interieur.
 <img src="images-readme/init-a.png" alt="init-a">
 
+### Créer le fichier html
 * Créer un nouveau fichier en tapant clique droit sur le dossier "code" apparent sur la partie gauche dans Sublime Text puis cliquer sur "new file".
 <img src="images-readme/init-b.png" alt="init-b">
-* Sauvegarder le fichier en cliquant sur "File" puis "Save". Taper le nom du fichier "index.html" (attention, petite liste des erreures classiques : "index.html" est sans "i" majuscule, sans "e" à la fin et l'extenstion est bien "html" et pas "htlm"). Assurer vous d'être bien dans le dossier "code" avant de sauvegarder.  
+
+* Sauvegarder le fichier en cliquant sur "File" puis "Save". 
+<img src="images-readme/init-c.png" alt="init-c">
+
+* Taper le nom du fichier "index.html" (attention, petite liste des erreures classiques : "index.html" est sans "i" majuscule, sans "e" à la fin et l'extenstion est bien "html" et pas "htlm"). Assurer vous d'être bien dans le dossier "code" avant de sauvegarder.  
+<img src="images-readme/init-d.png" alt="init-d">
+
+### Visualiser le résultat dans le navigateur
+* Ne pas oublier de sauvegarder tous les fichiers ouverts dans Sublime Text.
+* Ouvrir le dossier "code" en cliquant dessus.
+* Taper clique droit sur le fichier "index.html", puis "Ouvrir avec" et choisir le navigateur Chrome. 
+<img src="images-readme/init-e.png" alt="init-e">
+
+* Automatiquement le navigateur s'ouvre avec et présente la page web
+<img src="images-readme/init-f.png" alt="init-f">
+
+## Le fichier HTML
 
 ### Le squelette
 Le squelette de la page HTML comprend deux parties. 
