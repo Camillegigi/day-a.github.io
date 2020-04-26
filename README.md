@@ -84,7 +84,7 @@ On peut également ajouter un paragraphe grâce à la balise "p".
 
 ### Les listes non-ordonnées (Unordered List)
 
-La balise pour créer une liste non ordonnée est la balise "ul". Une liste est composée de plusieurs items, il faut donc céer un balise "li" (List Item) par item.
+La balise pour créer une liste non ordonnée est la balise "ul". Une liste est composée de plusieurs items, il faut donc créer un balise "li" (List Item) par item.
 
 ```html
 <h4>Ingredients</h4>
@@ -104,7 +104,7 @@ La balise pour créer une liste non ordonnée est la balise "ul". Une liste est 
 ```
 ### Les listes ordonnées (Ordered List)
 
-Ils existent aussi des liste ordonnées. La balise associée est la balise "ol".
+Ils existent aussi des listes ordonnées. La balise associée est la balise "ol".
 
 ```html
 <h4>Préparation</h4>
@@ -118,38 +118,45 @@ Ils existent aussi des liste ordonnées. La balise associée est la balise "ol".
 ```
 ### La structure d'une balise 
 
-Une balise puet être constituer de 4 parties :
+Une balise peut être constituée de 4 parties :
 * Le tag (ex: h1)
 * Les attributs (ex: width)
-* La valeur associée (ex 200px)
+* La valeur associée (ex: 200px)
 * Le text apparent
 
 ```html
-<tag attribut="valeur">text apparent à l'écran</tagt>
+<tag attribut="valeur">text apparent à l'écran</tag>
 ```
 
 ### Les liens de page en page
 
-La baise pour lier deux page est la balise "a".
+La balise pour lier deux pages est la balise "a".
 
 ```html
 <a href="https://www.marmiton.org/recettes/recette_muffins-tres-simples_166385.aspx" target="blank">En savoir plus</a>
 ```
-#########
+### Les images
 
-Créer un dossier nommé "images"
+Créer un dossier nommé "images".
 
 Télécharger une image d'un site de photo libre de droits, de qualité et gratuite.
 Exemple: Pexels ( https://www.pexels.com/fr-fr/ )
 
 Ranger la photo dans le dossier "images".
 
+Renommer l'image avec un nom simple, sans accent et sans espace (ex: "muffin.jpg").
+
+La balise pour insérer une image est la balise "img", elle contient au moins un attribut, l'attribut "src" ( pour "source"). La valeur de cet attribut doit être le chemin relatif de l'image. Dans notre exemple cela est "images/muffin.jpg". 
+
 ```html
 <img src="images/muffin.jpg" alt="muffin">
 ```
+On peut egalement ajouter l'attribut "alt" ( pour "alternative"). la valeur de cet attribut est un text décrivant au mieux l'image. Dans notre exemple "muffin". l'attribut "alt" a trois applications :
+* Le text s'affiche sur la page si le navigateur ne trouve pas l'image.
+* Les applications pour aveugles qui lisent la page HTML notifiront qu'il y a une image et ce quelle représente.
+* Mettre une description pertinante améliore le référencement.
 
-###########
- Mise en page du text
+### Mise en page du text
 
 ```html
 <p><strong>Les muffins</strong> sont de petits gâteaux individuels s'apparentant aux madeleines. Apparus au pays de Galles aux alentours du XIe siècle, ils sont très répandus dans les pays anglo-saxons, principalement aux États-Unis. Le principe caractéristique de fabrication des muffins consiste à préparer le mélange des ingrédients liquides et celui des ingrédients secs séparément, puis à mélanger rapidement et grossièrement les deux préparations. Contrairement aux cupcakes, les muffins n’ont jamais de glaçage.
