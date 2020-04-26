@@ -16,6 +16,7 @@ Et l'ensemble des propriétés dans le fichier <a href="https://github.com/Joz84
 ### Chrome
 <img src="images-readme/chrome-logo.png" alt="chrome-logo" width="100px">
 Chrome est un navigateur. C'est un logiciel qui permet de visualiser une page web. 
+
 Chaque logiciel attend un certain type de fichier avec une extension bien particulière. Par exemple :
 
 * Le tableur Excel attend des fichiers du type "tableau.xls".
@@ -27,6 +28,7 @@ Chaque logiciel attend un certain type de fichier avec une extension bien partic
 ### Sublime Text
 <img src="images-readme/st-logo.png" alt="st-logo" width="100px">
 Sublime Text est un éditeur de text qui permet d'écrire des fichiers textes et de les sauvegarder au format choisi. Dans notre cas nous l'utiliserons pour écrire les fichiers "index.html" et "style.css".
+
 C'est le seul logiciel qu'il est nécessaire d'installer pour suivre ce cours. Voici le lien :
 <a href="https://www.sublimetext.com/3" target="_blanck">Télécharger Sublime Text</a>
 
@@ -39,6 +41,7 @@ GitHub est une plateforme web qui permet stocker et de partager son travail en l
 ### Le langage HTML
 <img src="images-readme/html.png" alt="html" width="100px">
 Le langage HTML (Hypertext Markup Language) a été créé par Tim Berners-Lee en 1989. 
+
 C'est un Langage balisé qui permet d'écrire le contenu et structure d'un page web.
 
 Exemple de rendu HTML sans CSS :
@@ -50,6 +53,7 @@ Exemple de rendu HTML sans CSS :
 ### Le langage CSS
 <img src="images-readme/css.png" alt="css" width="100px">
 Le langage CSS (Cascading Style Sheets) a aussi été créé par Tim Berners-Lee en 1990.
+
 C'est un langage qui permet de définir la présentation et mise en page d'une page web.
 
 Exemple de rendu HTML avec CSS :
@@ -64,14 +68,14 @@ Exemple de rendu HTML avec CSS :
 * Ouvrir le logiciel Sublime Text et faire glisser le dossier "code" à l'interieur.
 <img src="images-readme/init-a.png" alt="init-a">
 
-### Créer le fichier html
+### Créer le fichier HTML
 * Créer un nouveau fichier en tapant clique droit sur le dossier "code" apparent sur la partie gauche dans Sublime Text puis cliquer sur "new file".
 <img src="images-readme/init-b.png" alt="init-b">
 
 * Sauvegarder le fichier en cliquant sur "File" puis "Save". 
 <img src="images-readme/init-c.png" alt="init-c">
 
-* Taper le nom du fichier "index.html" (attention, petite liste des erreures classiques : "index.html" est sans "i" majuscule, sans "e" à la fin et l'extenstion est bien "html" et pas "htlm"). Assurer vous d'être bien dans le dossier "code" avant de sauvegarder.  
+* Taper le nom du fichier "index.html" (attention, petite liste des erreurs classiques : "index.html" est sans "I" majuscule, sans "e" à la fin et l'extenstion est bien "html" et pas "htlm"). Assurer vous d'être bien dans le dossier "code" avant de sauvegarder.  
 <img src="images-readme/init-d.png" alt="init-d">
 
 ### Visualiser le résultat dans le navigateur
@@ -245,10 +249,26 @@ Il existe également des muffins salés, les English muffins ou muffins anglais,
 <br>
 <a href="https://www.marmiton.org/recettes/recette_muffins-tres-simples_166385.aspx" target="blank">
 ```
-####### image HTML sans CSS
+
+## Rendu final du fichier HTML
+
+<kbd>
+  <img src="images-readme/html-screenshot.png" alt="html-screenshot">
+</kbd>
 
 ## Le fichier CSS
-<img src="images-readme/html.png" alt="html" width="100px">
+<img src="images-readme/css.png" alt="css" width="100px">
+
+### Créer le fichier CSS
+
+* Créer un nouveau fichier en tapant clique droit sur le dossier "code" apparent sur la partie gauche dans Sublime Text puis cliquer sur "new file".
+<img src="images-readme/init-b.png" alt="init-b">
+
+* Sauvegarder le fichier en cliquant sur "File" puis "Save". 
+<img src="images-readme/init-c.png" alt="init-c">
+
+* Taper le nom du fichier "style.css" (attention, petite liste des erreurs classiques : "style.css" est sans "S" majuscule et l'extenstion est bien "css" et pas "ccs"). Assurer vous d'être bien dans le dossier "code" avant de sauvegarder.  
+<img src="images-readme/init-g.png" alt="init-g">
 
 #### lien entre les deux pages
 ```link``` + tab
