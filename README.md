@@ -36,12 +36,17 @@ GitHub est une plateforme web qui permet stocker et de partager son travail en l
 <a href="https://github.com/" target="_blanck">S'incrire sur GitHub</a>
 
 ## Présentation rapide des langages
-### <img src="images-readme/html.png" alt="html" width="100px"> HTML
+### Le langage HTML
 <img src="images-readme/html.png" alt="html" width="100px">
 Le langage HTML (Hypertext Markup Language) a été créé par Tim Berners-Lee en 1989. 
 C'est un Langage balisé qui permet d'écrire le contenu et structure d'un page web.
 
-### CSS
+Exemple de rendu HTML (sans CSS) :
+<img src="images-readme/html-screenshot.png" alt="html-screenshot">
+
+
+
+### Le langage CSS
 <img src="images-readme/css.png" alt="css" width="100px">
 Le langage CSS (Cascading Style Sheets) a aussi été créé par Tim Berners-Lee en 1990.
 C'est un langage qui permet de définir la présentation et mise en page d'une page web.
@@ -72,7 +77,8 @@ C'est un langage qui permet de définir la présentation et mise en page d'une p
 * Automatiquement le navigateur s'ouvre avec et présente la page web
 <img src="images-readme/init-f.png" alt="init-f">
 
-## <img src="images-readme/html.png" alt="html" width="100px"> Le fichier HTML
+## Le fichier HTML
+<img src="images-readme/html.png" alt="html" width="100px">
 
 ### Le squelette
 Le squelette de la page HTML comprend deux parties. 
@@ -233,7 +239,9 @@ Il existe également des muffins salés, les English muffins ou muffins anglais,
 ```
 ####### image HTML sans CSS
 
-####### CSS
+## Le fichier CSS
+<img src="images-readme/html.png" alt="html" width="100px">
+
 #### lien entre les deux pages
 ```link``` + tab
 créer un fichier css et le nommer "style.css".
