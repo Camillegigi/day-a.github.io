@@ -42,7 +42,7 @@ Le langage HTML (Hypertext Markup Language) a été créé par Tim Berners-Lee e
 C'est un Langage balisé qui permet d'écrire le contenu et structure d'un page web.
 
 Exemple de rendu HTML (sans CSS) :
-<img src="images-readme/html-screenshot.png" alt="html-screenshot">
+<img src="images-readme/html-screenshot.png" alt="html-screenshot" style="border: 5px solid black">
 
 
 
