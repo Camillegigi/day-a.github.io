@@ -235,8 +235,16 @@ On peut egalement ajouter l'attribut "alt" ( pour "alternative"). la valeur de c
 
 ### Mise en page du texte
 
+Pour mettre une partie du texte en gras, on peut utiliser deux balises : 
+* La balise ```<b>```
+* La balise ```<strong>``` qui, en plus de mettre le texte en gras, permet de faire en sorte que se texte soit pris en compte pour améliorer le référencement.
+
+Pour mettre le texte en italique on peut utiliser la balise ```<i>```.
+
+Voic un exemple de paragraphe avec les différentes balises de mise en page :
+
 ```html
-<p><strong>Les muffins</strong> sont de petits gâteaux individuels s'apparentant aux madeleines. Apparus au pays de Galles aux alentours du XIe siècle, ils sont très répandus dans les pays anglo-saxons, principalement aux États-Unis. Le principe caractéristique de fabrication des muffins consiste à préparer le mélange des ingrédients liquides et celui des ingrédients secs séparément, puis à mélanger rapidement et grossièrement les deux préparations. Contrairement aux cupcakes, les muffins n’ont jamais de glaçage.
+<p><strong>Les muffins</strong> sont de petits gâteaux individuels s'apparentant aux <b>madeleines</b>. Apparus au pays de Galles aux alentours du XIe siècle, ils sont très répandus dans les pays anglo-saxons, principalement aux États-Unis. Le principe caractéristique de fabrication des muffins consiste à préparer le mélange des ingrédients liquides et celui des ingrédients secs séparément, puis à mélanger rapidement et grossièrement les deux préparations. Contrairement aux cupcakes, les muffins n’ont jamais de glaçage.
 <br>
 Les muffins sont traditionnellement sucrés. On peut les retrouver au chocolat (avec des pépites de chocolat) ou nature, mais il existe de nombreuses autres variétés : fraise, banane, framboise, orange, vanille, myrtille ou bleuets, etc.
 <br>
@@ -256,11 +264,9 @@ Il existe également des muffins salés, les English muffins ou muffins anglais,
   <img src="images-readme/html-screenshot.png" alt="html-screenshot">
 </kbd>
 
-## Le fichier CSS
-<img src="images-readme/css.png" alt="css" width="100px">
+## Créer et lier le fichier CSS
 
 ### Créer le fichier CSS
-
 * Créer un nouveau fichier en tapant clique droit sur le dossier "code" apparent sur la partie gauche dans Sublime Text puis cliquer sur "new file".
 <img src="images-readme/init-b.png" alt="init-b">
 
@@ -270,19 +276,25 @@ Il existe également des muffins salés, les English muffins ou muffins anglais,
 * Taper le nom du fichier "style.css" (attention, petite liste des erreurs classiques : "style.css" est sans "S" majuscule et l'extenstion est bien "css" et pas "ccs"). Assurer vous d'être bien dans le dossier "code" avant de sauvegarder.  
 <img src="images-readme/init-g.png" alt="init-g">
 
-#### lien entre les deux pages
-```link``` + tab
-créer un fichier css et le nommer "style.css".
+### Faire le lien entre le fichier HTML et le le fichier CSS
+
+* Se postionner juste avant la fermeture de la balise ```<head>``` dans le fichier "index.html".
+* taper ```link``` puis la touche "tabulations". On obtient la balise ```<link>``` qui permet de lier un fichier de style au fichier HTML.
+* La valeur de l'attribut "href" est le nom du fichier CSS, soit dans notre exemple "style.css".
 
 ```html
 <head>
   [...]
   <link rel="stylesheet" href="style.css">
 </head>
-Attention : href="style.css" fait bien sur référence au fichier "style.css" et doit avoir le même nom.
 ```
 
-# style.css
+## Le fichier CSS
+<img src="images-readme/css.png" alt="css" width="100px">
+
+### Appliquer du style au titre principal h1
+Dans le fichier "style.css" taper le nom du sélecteur (par exemple: ```h1``` suivi des accolades ```{}```. L'ensemble des propriétés qui s'appliqueront à ce sélecteur seront listées à l'interieur de ces accolades.
+
 ```css
 h1 {
   color: green;
@@ -290,7 +302,12 @@ h1 {
   background: pink;
   font-family: arial;
 }
+```
 
+### Appliquer du style à plusieurs balises en une seule fois
+Les balises concernées sont séparées par une virgules.
+
+```css
 h2, h3, h4 {
   font-size: 28px;
   background: pink;
@@ -302,8 +319,9 @@ p, ul, ol {
 }
 ```
 
-########
-    
+### Aplliquer du style à toute la page
+Pour cela on peut utiliser la balise ```<body>```
+
 ```css
 body {
   background: pink;
@@ -320,7 +338,8 @@ h2, h3, h4 {
 }
 ```
 
-#######
+### Positionner le texte dans la page
+Pour cela on peut utiliser la propriété ```text-align```.
 
 ```css
 body {
@@ -334,7 +353,7 @@ h4, ul, ol {
 }
 ```
 
-#####
+### Aplliquer du style à une image
 
 ```css
 img {
@@ -344,7 +363,8 @@ img {
 }
 ```
 
-#####
+### Aplliquer du style à un lien
+Le suffixe ```:hover``` permet d'appliquer du style au lien lorsque la souris survole le lien. 
 
 ```css
 a:hover {
@@ -356,17 +376,21 @@ a, a:hover {
 }
 ```
 
-## Police google
+## Utiliser une police google
 Google fonts (https://fonts.google.com/)
 
 * Aller sur le site google fonts.
 * Sélectionner une police en cliquant sur le petit "+" en face du nom de la police.
-<img src="images-readme/google-fonts1.png" alt="google-fonts1">
-
+<kbd>
+  <img src="images-readme/google-fonts1.png" alt="google-fonts1">
+</kbd>
+  
 * Copier le code html de la forme ```<link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">```.
-<img src="images-readme/google-fonts2.png" alt="google-fonts2">
+<kbd>
+  <img src="images-readme/google-fonts2.png" alt="google-fonts2">
+</kbd>
+* Coller le code obtenu dans le fichier HTML au dessus de la ligne ```<link rel="stylesheet" href="style.css">```
 
-* Coller le code obtenu dans le fichier html au dessus de la ligne ```<link rel="stylesheet" href="style.css">```
 Soit :
 
 ```html
@@ -377,7 +401,8 @@ Soit :
 </head>
 ```
 
-Puis copier la propriété css de la forme ```font-family: 'Pacifico', cursive;``` et la coller dans le fichier css :
+* Copier la propriété CSS de la forme ```font-family: 'Pacifico', cursive;```.
+* Coller dans le fichier CSS :
 
 ```css
 h1 {
@@ -392,12 +417,14 @@ h2, h3, h4 {
 }
 ```
 
-## Vidéo
+## Insérer une vidéo Youtube
 
 * Aller sur Youtube et choisir une video (https://www.youtube.com/watch?v=fBuSNu2m3XA&feature=youtu.be)
 * Taper clique droit sur la vidéo.
 * Cliquer sur "< > Copier le code d'intégration".
-<img src="images-readme/youtube.png" alt="youtube">
+<kbd>
+  <img src="images-readme/youtube.png" alt="youtube">
+</kbd>
 
 * Coller le code dans le fichier html la où vous souhaitez intégrer la vidéo :
 
