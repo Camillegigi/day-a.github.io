@@ -24,7 +24,9 @@ Chaque logiciel attend un certain type de fichier avec une extension bien partic
 * Le lecteur vidéo VLC attend des fichiers du type "video.mp4".
 * Le navigateur Chrome attend des fichiers du type "index.html" et "style.css".
 
-<img src="images-readme/extensions.png" alt="extensions">
+<kbd>
+  <img src="images-readme/extensions.png" alt="extensions">
+</kbd>
 
 ### Sublime Text
 <img src="images-readme/st-logo.png" alt="st-logo" width="100px">
@@ -435,4 +437,8 @@ Remarque : Il est possible de changer la taille de la vidéo grâce aux attribut
 <h3>La recette en vidéo</h3>
 <iframe width="500" height="300" src="https://www.youtube.com/embed/fBuSNu2m3XA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ```
+## Rendu final du fichier HTML avec le fichier CSS
 
+<kbd>
+  <img src="images-readme/css-screenshot.png" alt="css-screenshot">
+</kbd>
