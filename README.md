@@ -35,6 +35,7 @@ C'est le seul logiciel qu'il est nécessaire d'installer pour suivre ce cours. V
 GitHub est une plateforme web qui permet stocker et de partager son travail en ligne et héberger des sites statiques. Dans ce cours nous utiliserons cette plateforme à la fois pour partager les supports de cours et héberger le site web que nous allos produire. Pour pouvoir suivre ce cours il est donc nécessaire de se créer un compte. Voici le lien : 
 <a href="https://github.com/" target="_blanck">S'incrire sur GitHub</a>
 
+## Présentation rapide des langages
 ### HTML
 <img src="images-readme/html.png" alt="html" width="100px">
 Le langage HTML (Hypertext Markup Language) a été créé par Tim Berners-Lee en 1989. 
