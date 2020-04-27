@@ -220,7 +220,9 @@ La balise pour lier deux pages est la balise "a".
 * Créer un dossier nommé "images".
 
 * Télécharger une image d'un site de photo libre de droits, de qualité et gratuite.
-Exemple: Pexels ( https://www.pexels.com/fr-fr/ )
+Exemple: 
+  ** https://www.pexels.com
+  ** https://flickr.com
 
 <img src="images-readme/pexels.png" alt="pexels">
 
